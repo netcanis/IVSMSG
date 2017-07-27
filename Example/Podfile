@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IVSMSG_Example' do
+  pod 'IVSMSG', :path => '../'
+
+  target 'IVSMSG_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

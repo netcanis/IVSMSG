@@ -1,0 +1,22 @@
+{
+  "name": "IVSMSG",
+  "version": "0.1.0",
+  "summary": "A short description of IVSMSG.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/netcanis/IVSMSG",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "netcanis": "netcanis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/netcanis/IVSMSG.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IVSMSG/Classes/**/*"
+}

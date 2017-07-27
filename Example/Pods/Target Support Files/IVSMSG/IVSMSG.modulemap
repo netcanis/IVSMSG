@@ -1,0 +1,6 @@
+framework module IVSMSG {
+  umbrella header "IVSMSG-umbrella.h"
+
+  export *
+  module * { export * }
+}
