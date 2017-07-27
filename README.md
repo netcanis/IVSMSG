@@ -9,6 +9,20 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```objc
+NSInteger a = 1234;
+long b = 12345;
+char s[] = "hello world.";
+IVSMSG m;
+m<<a<<b<<s;
+
+NSInteger aa;
+long bb;
+char ss[128] = {0,};
+m>>aa>>bb>>ss;
+NSLog(@"%zd, %ld, %s", aa,bb,ss);
+```
+
 ## Requirements
 
 ## Installation
