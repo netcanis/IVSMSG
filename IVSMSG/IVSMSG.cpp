@@ -35,7 +35,10 @@ IVSMSG::IVSMSG(DWORD dwId)
 
 IVSMSG::~IVSMSG()
 {
-    free(_lpBuffer);
+    if (NULL != _lpBuffer) {
+        free(_lpBuffer);
+        _lpBuffer = NULL;
+    }
 }
 
 void IVSMSG::readData (void* data, DWORD dstLength)
